@@ -1,0 +1,4 @@
+Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces -- -j20 -l20
+Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces -- -j20 -l20
+Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces
+Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces

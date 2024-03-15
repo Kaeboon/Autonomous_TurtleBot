@@ -1,0 +1,847 @@
+<sdf version='1.5'>
+  <model name='ee4308_world_24'>
+    <static>1</static>
+    <link name='world_24'>
+
+      <collision name='wx_0'>
+        <pose>-0.140000 -0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_0'>
+        <pose>-0.140000 -0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_1'>
+        <pose>0.140000 -0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_1'>
+        <pose>0.140000 -0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_2'>
+        <pose>0.420000 -0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_2'>
+        <pose>0.420000 -0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_3'>
+        <pose>0.700000 -0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_3'>
+        <pose>0.700000 -0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_4'>
+        <pose>0.980000 -0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_4'>
+        <pose>0.980000 -0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_5'>
+        <pose>1.260000 -0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_5'>
+        <pose>1.260000 -0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_6'>
+        <pose>1.540000 -0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_6'>
+        <pose>1.540000 -0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_7'>
+        <pose>-0.140000 1.120000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_7'>
+        <pose>-0.140000 1.120000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_8'>
+        <pose>0.140000 1.120000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_8'>
+        <pose>0.140000 1.120000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_9'>
+        <pose>0.420000 1.120000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_9'>
+        <pose>0.420000 1.120000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_10'>
+        <pose>0.700000 1.120000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_10'>
+        <pose>0.700000 1.120000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_11'>
+        <pose>0.980000 1.120000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_11'>
+        <pose>0.980000 1.120000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_12'>
+        <pose>1.260000 1.120000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_12'>
+        <pose>1.260000 1.120000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_13'>
+        <pose>1.540000 1.120000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_13'>
+        <pose>1.540000 1.120000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_14'>
+        <pose>-0.140000 0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_14'>
+        <pose>-0.140000 0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_15'>
+        <pose>0.140000 0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_15'>
+        <pose>0.140000 0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_16'>
+        <pose>0.420000 0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_16'>
+        <pose>0.420000 0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_17'>
+        <pose>0.700000 0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_17'>
+        <pose>0.700000 0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_18'>
+        <pose>0.980000 0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_18'>
+        <pose>0.980000 0.280000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_19'>
+        <pose>0.980000 0.840000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_19'>
+        <pose>0.980000 0.840000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_20'>
+        <pose>1.260000 0.840000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_20'>
+        <pose>1.260000 0.840000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wx_21'>
+        <pose>1.540000 0.560000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wx_21'>
+        <pose>1.540000 0.560000 0.1 0 0 1.570000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wy_0'>
+        <pose>-0.280000 -0.140000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wy_0'>
+        <pose>-0.280000 -0.140000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wy_1'>
+        <pose>-0.280000 0.140000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wy_1'>
+        <pose>-0.280000 0.140000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wy_2'>
+        <pose>-0.280000 0.420000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wy_2'>
+        <pose>-0.280000 0.420000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wy_3'>
+        <pose>-0.280000 0.700000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wy_3'>
+        <pose>-0.280000 0.700000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wy_4'>
+        <pose>-0.280000 0.980000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wy_4'>
+        <pose>-0.280000 0.980000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wy_5'>
+        <pose>1.680000 -0.140000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wy_5'>
+        <pose>1.680000 -0.140000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wy_6'>
+        <pose>1.680000 0.140000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wy_6'>
+        <pose>1.680000 0.140000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wy_7'>
+        <pose>1.680000 0.420000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wy_7'>
+        <pose>1.680000 0.420000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wy_8'>
+        <pose>1.680000 0.700000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wy_8'>
+        <pose>1.680000 0.700000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wy_9'>
+        <pose>1.680000 0.980000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wy_9'>
+        <pose>1.680000 0.980000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wy_10'>
+        <pose>0.280000 0.700000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wy_10'>
+        <pose>0.280000 0.700000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wy_11'>
+        <pose>0.280000 0.980000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wy_11'>
+        <pose>0.280000 0.980000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name='wy_12'>
+        <pose>1.400000 0.700000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+      <visual name='wy_12'>
+        <pose>1.400000 0.700000 0.1 0 0 0.000000</pose>
+        <geometry>
+          <box>
+            <size>0.005 0.27 0.2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

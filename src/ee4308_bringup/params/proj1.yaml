@@ -1,0 +1,79 @@
+turtle:
+  behavior:
+    ros__parameters:
+      services:
+        goto_waypoint: "goto_waypoint" # {string} the service name to request the robot to move to a waypoint
+      waypoints: [1.4, 0., 0.56, 0.84, 0., 0.84] # {[double]} an array of doubles. first two elements are the first pair of coordinates, etc.
+
+# FIXME
+  estimator:
+    ros__parameters:
+      topics:
+        imu: "imu" # {string} the topic to subscribe to the tbot's imu
+        wheels: "joint_states" # {string} the topic to subscribe to the tbot's wheel encoders.
+        pose: "pose" # {string} the topic to publish the estimated pose.
+      imu_lin_gain: 0.0001 # {double} the amount of imu linear gain, between 0 and 1.
+      imu_ang_gain: 0.03 # {double} the amount of imu angular gain, between 0 and 1. - 0.2
+      frequency: 40. # {double} how often the robot's motion is estimated (Hz).
+      wheel_radius: 0.033 # {double} the wheel radius (m).
+      axle_track: 0.16 # {double} the axle track (m).
+      straight_thres: 0.0001 # {double} the angular threshold (rad) to switch between straight and curved odometry. - 0.01
+# END OF FIXME
+
+  planner_smoother:
+    ros__parameters:
+      topics:
+        plan: "plan" # {string} topic to publish the path to, after a service request is completed.
+      services:
+        get_inflation_layer: "get_inflation_layer" # {string} service name to request for the inflation layer
+        get_plan: "get_plan" # {string} service name to service a plan request.
+      frame_id: "map" # The parent tf2 frame of the path.
+      spline_vel: 0.12 # {double} The boundary velocity for the cubic or quintic spline.
+      time_step: 0.8 # {double} The timestep
+
+  controller:
+    ros__parameters:
+      services:
+        get_plan: "get_plan" # {string} the service name to get the trajectory from the planner
+        goto_waypoint: "goto_waypoint" # {string} the service name to service a waypoint request
+      topics:
+        pose: "pose" # {string} the topic to listen to the estimated pose.
+        cmd_vel: "cmd_vel" # {string} the topic to publish the command velocities.
+        lookahead: "lookahead" # {string} the topic to publish the lookahead point.
+      nearby: 0.1 # {double} the threshold in meters to determine if a waypoint is close enough.
+      lookahead: 0.1 # {double} the maximum lookahead distance - 0.05
+      max_lin_vel: 0.06 # {double} the maximum linear velocity (m/s) - 0.04
+      max_lin_acc: 1. # {double} the maxmum linear acceleration (m/s/s)
+      max_ang_vel: 0.4 # {double} the maximum angular velocity (rad/s)
+      max_ang_acc: 3. # {double} the maxmum angular acceleration (rad/s/s)
+      frequency: 20. # {double} the rate to run the controller (Hz)
+      plan_frequency: 0.5 # {double} the rate to request a path (Hz)
+      lookahead_lin_vel: 0.01 #{double} the lookahead linear velocity (m/s)
+
+  mapper:
+    ros__parameters:
+      topics:
+        pose: "pose" # {string} topic name to get the pose of the robot.
+        scan: "scan" # {string} topic name to get the laser scans of the robot.
+        obstacle_layer: "obstacle_layer" # {string} topic to publish the obstacle layer
+        inflation_layer: "inflation_layer" # {string} topic to publish the inflation layer
+      services:
+        get_obstacle_layer: "get_obstacle_layer" # {string} service name to service an obstacle_layer request
+        get_inflation_layer: "get_inflation_layer" # {string} service name to service an inflation_layer request
+      frame_id: "map" # {string} The parent tf2 frame of the costmaps
+      size_x: 200 # {int} Width, or number of cells in y axis.
+      size_y: 200 # {int} Height, or number of cells in y axis.
+      origin_x: -5. # {double} World x-coordinate of the bottom-left corner (-x and -y direction from center) of the grid.
+      origin_y: -5. # {double} World y-coordinate of the bottom-left corner (-x and -y direction from center) of the grid.
+      resolution: 0.05 # {double} Length of a cell in meters.
+      min_scan_range: 0.12001 # {double} Do not change. Minimum scan range for turtlebot's lidar in meters.
+      max_scan_range: 3.49999 # {double} Do not change. Maximum scan range for turtlebot's lidar in meters.
+      inflation_radius: 0.1 # {double} Inflation radius in meters.
+      inf_limit: 30. # {double} The maximum cost on the inflation layer. Between 0 and 100.
+      inflate: 3. # {double} The amount to increment for an inflation layer cell for every nearby occupied cell in the inflation radius. Between 0 and 100.
+      oc_limit: 100 # {int} The maximum cost on the obstacle layer. Between 0 and 100.
+      free_limit: 0 # {int} The minimum cost on the inflation layer. Between 0 and 100.
+      oc_thres: 80 # {int} Cells on the obstacle layer with a greater or equal cost to this value will be deemed as occupied. Between 0 and 100.
+      free_thres: 20 # {int} Not currently used. Cells on the obstacle layer with a smaller or equal cost to this value will be deemed as free. Between 0 and 100.
+      occupy: 5 # {int} The amount to increment if a cell is observed to be occupied, or the amount to decrement if a cell is observed to be free.
+      oc_initial: 50 # {int} The initial occupancy value for all cells in the obstacle layer.

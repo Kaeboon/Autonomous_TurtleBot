@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ee4308_interfaces/srv/Waypoint.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Empty.idl"
+
+module ee4308_interfaces {
+  module srv {
+    struct Waypoint_Request {
+      geometry_msgs::msg::Point waypoint;
+    };
+    struct Waypoint_Response {
+      std_msgs::msg::Empty response;
+    };
+  };
+};

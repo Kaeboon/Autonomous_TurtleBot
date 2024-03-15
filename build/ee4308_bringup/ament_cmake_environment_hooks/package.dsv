@@ -1,0 +1,4 @@
+source;share/ee4308_bringup/local_setup.bash
+source;share/ee4308_bringup/local_setup.dsv
+source;share/ee4308_bringup/local_setup.sh
+source;share/ee4308_bringup/local_setup.zsh

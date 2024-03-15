@@ -1,0 +1,207 @@
+[0.086s] Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces
+[0.556s] -- The C compiler identification is GNU 11.4.0
+[1.586s] -- The CXX compiler identification is GNU 11.4.0
+[2.493s] -- Detecting C compiler ABI info
+[2.661s] -- Detecting C compiler ABI info - done
+[2.665s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.665s] -- Detecting C compile features
+[2.666s] -- Detecting C compile features - done
+[2.667s] -- Detecting CXX compiler ABI info
+[2.961s] -- Detecting CXX compiler ABI info - done
+[2.965s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.965s] -- Detecting CXX compile features
+[2.965s] -- Detecting CXX compile features - done
+[2.967s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.060s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.094s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.110s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[3.476s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.480s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.489s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.502s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.519s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.563s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.646s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.703s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[3.750s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.932s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.313s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.776s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.778s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.698s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.699s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.699s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.699s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.710s] -- Found PythonExtra: .so  
+[5.829s] -- Configuring done
+[5.856s] -- Generating done
+[5.857s] -- Build files have been written to: /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces
+[5.864s] Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces
+[5.865s] Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces -- -j20 -l20
+[5.883s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.888s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.892s] [  6%] Built target ament_cmake_python_symlink_ee4308_interfaces
+[6.016s] running egg_info
+[6.016s] creating ee4308_interfaces.egg-info
+[6.017s] writing ee4308_interfaces.egg-info/PKG-INFO
+[6.017s] writing dependency_links to ee4308_interfaces.egg-info/dependency_links.txt
+[6.017s] writing top-level names to ee4308_interfaces.egg-info/top_level.txt
+[6.017s] writing manifest file 'ee4308_interfaces.egg-info/SOURCES.txt'
+[6.019s] reading manifest file 'ee4308_interfaces.egg-info/SOURCES.txt'
+[6.019s] writing manifest file 'ee4308_interfaces.egg-info/SOURCES.txt'
+[6.035s] [  6%] Built target ee4308_interfaces__cpp
+[6.039s] [  6%] Built target ament_cmake_python_build_ee4308_interfaces_egg
+[6.040s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.040s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.041s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.054s] [ 19%] [32mBuilding C object CMakeFiles/ee4308_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ee4308_interfaces/srv/detail/waypoint__functions.c.o[0m
+[6.087s] [ 22%] [32m[1mLinking C shared library libee4308_interfaces__rosidl_generator_c.so[0m
+[6.163s] [ 25%] [32mBuilding CXX object CMakeFiles/ee4308_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ee4308_interfaces/srv/waypoint__type_support.cpp.o[0m
+[6.177s] [ 29%] [32mBuilding CXX object CMakeFiles/ee4308_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ee4308_interfaces/srv/detail/waypoint__type_support.cpp.o[0m
+[6.180s] [ 32%] [32mBuilding CXX object CMakeFiles/ee4308_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ee4308_interfaces/srv/detail/dds_fastrtps/waypoint__type_support.cpp.o[0m
+[6.199s] [ 32%] Built target ee4308_interfaces__rosidl_generator_c
+[6.205s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.205s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.205s] [ 41%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.327s] [ 45%] [32m[1mLinking CXX shared library libee4308_interfaces__rosidl_typesupport_cpp.so[0m
+[6.345s] [ 48%] [32mBuilding CXX object CMakeFiles/ee4308_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ee4308_interfaces/srv/waypoint__type_support.cpp.o[0m
+[6.366s] [ 51%] [32m[1mLinking CXX shared library libee4308_interfaces__rosidl_typesupport_c.so[0m
+[6.366s] [ 54%] [32mBuilding C object CMakeFiles/ee4308_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ee4308_interfaces/srv/detail/waypoint__type_support.c.o[0m
+[6.375s] [ 58%] [32mBuilding CXX object CMakeFiles/ee4308_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ee4308_interfaces/srv/detail/waypoint__type_support_c.cpp.o[0m
+[6.386s] [ 61%] [32m[1mLinking C shared library libee4308_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.426s] [ 64%] [32m[1mLinking CXX shared library libee4308_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.433s] [ 67%] [32m[1mLinking CXX shared library libee4308_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.457s] [ 67%] Built target ee4308_interfaces__rosidl_typesupport_cpp
+[6.486s] [ 67%] Built target ee4308_interfaces__rosidl_typesupport_introspection_c
+[6.489s] [ 67%] Built target ee4308_interfaces__rosidl_typesupport_c
+[6.561s] [ 67%] Built target ee4308_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.567s] [ 70%] [32m[1mLinking CXX shared library libee4308_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.579s] [ 70%] Built target ee4308_interfaces__rosidl_typesupport_introspection_cpp
+[6.717s] [ 70%] Built target ee4308_interfaces__rosidl_typesupport_fastrtps_c
+[6.726s] [ 70%] Built target ee4308_interfaces
+[6.736s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.924s] [ 74%] Built target ee4308_interfaces__py
+[6.934s] [ 77%] [32mBuilding C object CMakeFiles/ee4308_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ee4308_interfaces/srv/_waypoint_s.c.o[0m
+[6.988s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/ee4308_interfaces/libee4308_interfaces__rosidl_generator_py.so[0m
+[7.520s] [ 80%] Built target ee4308_interfaces__rosidl_generator_py
+[7.531s] [ 90%] [32mBuilding C object CMakeFiles/ee4308_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ee4308_interfaces/_ee4308_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.531s] [ 90%] [32mBuilding C object CMakeFiles/ee4308_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ee4308_interfaces/_ee4308_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.531s] [ 90%] [32mBuilding C object CMakeFiles/ee4308_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ee4308_interfaces/_ee4308_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.596s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.596s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.596s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.913s] [100%] Built target ee4308_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.913s] [100%] Built target ee4308_interfaces__rosidl_typesupport_c__pyext
+[7.913s] [100%] Built target ee4308_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.926s] Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces -- -j20 -l20
+[7.953s] Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces
+[7.956s] -- Install configuration: ""
+[7.957s] -- Execute custom install script
+[7.957s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ament_index/resource_index/rosidl_interfaces/ee4308_interfaces
+[7.962s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.965s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__functions.h
+[7.969s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__struct.h
+[7.973s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__type_support.h
+[7.976s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/waypoint.h
+[7.980s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/environment/library_path.sh
+[7.984s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/environment/library_path.dsv
+[7.987s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.991s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__rosidl_typesupport_fastrtps_c.h
+[7.994s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__builder.hpp
+[7.998s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__struct.hpp
+[8.002s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__traits.hpp
+[8.005s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/waypoint.hpp
+[8.009s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.013s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[8.017s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.020s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__rosidl_typesupport_introspection_c.h
+[8.024s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__rosidl_typesupport_introspection_cpp.hpp
+[8.028s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/environment/pythonpath.sh
+[8.031s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/environment/pythonpath.dsv
+[8.035s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[8.040s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.043s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.047s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[8.052s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/__init__.py
+[8.056s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/_ee4308_interfaces_s.ep.rosidl_typesupport_c.c
+[8.060s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/_ee4308_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.064s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/_ee4308_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[8.067s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.071s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.074s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.078s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/libee4308_interfaces__rosidl_generator_py.so
+[8.082s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv/__init__.py
+[8.085s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv/_waypoint.py
+[8.089s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv/_waypoint_s.c
+[8.093s] -- Up-to-date symlink: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.093s] -- Up-to-date symlink: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.093s] -- Up-to-date symlink: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.093s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/srv/Waypoint.idl
+[8.096s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/srv/Waypoint.srv
+[8.100s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/srv/Waypoint_Request.msg
+[8.104s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/srv/Waypoint_Response.msg
+[8.108s] -- Up-to-date symlink: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces//srv/Waypoint.srv
+[8.108s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces//srv/Waypoint.srv:Zone.Identifier
+[8.111s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces//srv/Waypoint.srv:Zone.Identifier:Zone.Identifier
+[8.115s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ament_index/resource_index/package_run_dependencies/ee4308_interfaces
+[8.120s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ament_index/resource_index/parent_prefix_path/ee4308_interfaces
+[8.123s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/environment/ament_prefix_path.sh
+[8.127s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/environment/ament_prefix_path.dsv
+[8.131s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/environment/path.sh
+[8.134s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/environment/path.dsv
+[8.138s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/local_setup.bash
+[8.142s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/local_setup.sh
+[8.146s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/local_setup.zsh
+[8.150s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/local_setup.dsv
+[8.154s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/package.dsv
+[8.158s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ament_index/resource_index/packages/ee4308_interfaces
+[8.162s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.165s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.169s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.173s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.176s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.180s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.184s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.188s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfacesConfig.cmake
+[8.191s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfacesConfig-version.cmake
+[8.195s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/package.xml
+[8.199s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_generator_c.so
+[8.199s] -- Set runtime path of "/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_generator_c.so" to ""
+[8.199s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.199s] -- Set runtime path of "/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.199s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.199s] -- Set runtime path of "/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.199s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_introspection_c.so
+[8.200s] -- Set runtime path of "/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.200s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_c.so
+[8.200s] -- Set runtime path of "/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_c.so" to ""
+[8.200s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.200s] -- Set runtime path of "/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.200s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_cpp.so
+[8.200s] -- Set runtime path of "/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.219s] Listing '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces'...
+[8.219s] Compiling '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/__init__.py'...
+[8.219s] Listing '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv'...
+[8.219s] Compiling '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv/__init__.py'...
+[8.219s] Compiling '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv/_waypoint.py'...
+[8.222s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_generator_py.so
+[8.222s] -- Set runtime path of "/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_generator_py.so" to ""
+[8.222s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_generator_cExport.cmake
+[8.222s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.222s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.222s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.222s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_generator_cppExport.cmake
+[8.222s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.223s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.223s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.223s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.223s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_cExport.cmake
+[8.223s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.223s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.223s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.223s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_cppExport.cmake
+[8.223s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.223s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_generator_pyExport.cmake
+[8.223s] -- Installing: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.224s] Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces

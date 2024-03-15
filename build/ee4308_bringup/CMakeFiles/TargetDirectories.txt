@@ -1,0 +1,9 @@
+/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup/CMakeFiles/uninstall.dir
+/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup/CMakeFiles/ee4308_bringup_uninstall.dir
+/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup/CMakeFiles/test.dir
+/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup/CMakeFiles/edit_cache.dir
+/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup/CMakeFiles/rebuild_cache.dir
+/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup/CMakeFiles/list_install_components.dir
+/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup/CMakeFiles/install.dir
+/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup/CMakeFiles/install/local.dir
+/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup/CMakeFiles/install/strip.dir

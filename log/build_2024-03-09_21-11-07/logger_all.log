@@ -1,0 +1,339 @@
+[4.433s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[4.433s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f21f628b490>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f21f6290cd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f21f6290cd0>>)
+[4.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.464s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chen/ee4308_proj1_2/ee4308_proj1_2'
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extensions ['ignore', 'ignore_ament_install']
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extension 'ignore'
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extension 'ignore_ament_install'
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extensions ['colcon_pkg']
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extension 'colcon_pkg'
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extensions ['colcon_meta']
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extension 'colcon_meta'
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extensions ['ros']
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extension 'ros'
+[4.475s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ee4308_bringup' with type 'ros.ament_cmake' and name 'ee4308_bringup'
+[4.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[4.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extension 'ignore'
+[4.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extension 'ignore_ament_install'
+[4.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extensions ['colcon_pkg']
+[4.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extension 'colcon_pkg'
+[4.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extensions ['colcon_meta']
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extension 'colcon_meta'
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extensions ['ros']
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extension 'ros'
+[4.476s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ee4308_interfaces' with type 'ros.ament_cmake' and name 'ee4308_interfaces'
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extensions ['ignore', 'ignore_ament_install']
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extension 'ignore'
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extension 'ignore_ament_install'
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extensions ['colcon_pkg']
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extension 'colcon_pkg'
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extensions ['colcon_meta']
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extension 'colcon_meta'
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extensions ['ros']
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extension 'ros'
+[4.477s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ee4308_lib' with type 'ros.ament_cmake' and name 'ee4308_lib'
+[4.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extensions ['ignore', 'ignore_ament_install']
+[4.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extension 'ignore'
+[4.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extension 'ignore_ament_install'
+[4.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extensions ['colcon_pkg']
+[4.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extension 'colcon_pkg'
+[4.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extensions ['colcon_meta']
+[4.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extension 'colcon_meta'
+[4.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extensions ['ros']
+[4.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extension 'ros'
+[4.478s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ee4308_turtle' with type 'ros.ament_cmake' and name 'ee4308_turtle'
+[4.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.532s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/chen/ee4308_proj1_2/ee4308_proj1_2/install
+[4.539s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 425 installed packages in /opt/ros/humble
+[4.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.597s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'cmake_args' from command line to 'None'
+[4.597s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'cmake_target' from command line to 'None'
+[4.597s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.597s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[4.597s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[4.597s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[4.597s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[4.597s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[4.597s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.597s] DEBUG:colcon.colcon_core.verb:Building package 'ee4308_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup', 'merge_install': False, 'path': '/home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_bringup', 'symlink_install': True, 'test_result_base': None}
+[4.603s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'cmake_args' from command line to 'None'
+[4.603s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'cmake_target' from command line to 'None'
+[4.603s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.603s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[4.603s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[4.603s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[4.603s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[4.603s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[4.603s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.603s] DEBUG:colcon.colcon_core.verb:Building package 'ee4308_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces', 'merge_install': False, 'path': '/home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_interfaces', 'symlink_install': True, 'test_result_base': None}
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'cmake_args' from command line to 'None'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'cmake_target' from command line to 'None'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'cmake_clean_cache' from command line to 'False'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'cmake_clean_first' from command line to 'False'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'cmake_force_configure' from command line to 'False'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'ament_cmake_args' from command line to 'None'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'catkin_cmake_args' from command line to 'None'
+[4.609s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.609s] DEBUG:colcon.colcon_core.verb:Building package 'ee4308_lib' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib', 'merge_install': False, 'path': '/home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_lib', 'symlink_install': True, 'test_result_base': None}
+[4.615s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'cmake_args' from command line to 'None'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'cmake_target' from command line to 'None'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'cmake_clean_cache' from command line to 'False'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'cmake_clean_first' from command line to 'False'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'cmake_force_configure' from command line to 'False'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'ament_cmake_args' from command line to 'None'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'catkin_cmake_args' from command line to 'None'
+[4.616s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.616s] DEBUG:colcon.colcon_core.verb:Building package 'ee4308_turtle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_turtle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle', 'merge_install': False, 'path': '/home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_turtle', 'symlink_install': True, 'test_result_base': None}
+[4.622s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.629s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.629s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_interfaces' with build type 'ament_cmake'
+[4.629s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_interfaces'
+[4.637s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.637s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.637s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.657s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_lib' with build type 'ament_cmake'
+[4.658s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_lib'
+[4.665s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.665s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.686s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_bringup' with build type 'ament_cmake'
+[4.686s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_bringup'
+[4.692s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.692s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces -- -j20 -l20
+[4.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib -- -j20 -l20
+[4.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup -- -j20 -l20
+[4.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib -- -j20 -l20
+[4.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup -- -j20 -l20
+[4.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib
+[4.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup
+[4.767s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_lib)
+[4.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib
+[4.784s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib' for CMake module files
+[4.785s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib' for CMake config files
+[4.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_lib', 'cmake_prefix_path')
+[4.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/hook/cmake_prefix_path.ps1'
+[4.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/hook/cmake_prefix_path.dsv'
+[4.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/hook/cmake_prefix_path.sh'
+[4.794s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/bin'
+[4.795s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/lib/pkgconfig/ee4308_lib.pc'
+[4.795s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/lib/python3.10/site-packages'
+[4.795s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/bin'
+[4.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/package.ps1'
+[4.809s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/package.dsv'
+[4.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/package.sh'
+[4.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/package.bash'
+[4.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/package.zsh'
+[4.810s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/colcon-core/packages/ee4308_lib)
+[4.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_bringup)
+[4.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup
+[4.819s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup' for CMake module files
+[4.819s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup' for CMake config files
+[4.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_bringup', 'cmake_prefix_path')
+[4.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/hook/cmake_prefix_path.ps1'
+[4.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/hook/cmake_prefix_path.dsv'
+[4.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/hook/cmake_prefix_path.sh'
+[4.826s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/bin'
+[4.826s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/lib/pkgconfig/ee4308_bringup.pc'
+[4.826s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/lib/python3.10/site-packages'
+[4.827s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/bin'
+[4.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/package.ps1'
+[4.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/package.dsv'
+[4.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/package.sh'
+[4.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/package.bash'
+[4.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/package.zsh'
+[4.835s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/colcon-core/packages/ee4308_bringup)
+[4.841s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_lib)
+[4.848s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib' for CMake module files
+[4.848s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib' for CMake config files
+[4.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_lib', 'cmake_prefix_path')
+[4.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/hook/cmake_prefix_path.ps1'
+[4.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/hook/cmake_prefix_path.dsv'
+[4.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/hook/cmake_prefix_path.sh'
+[4.855s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/bin'
+[4.855s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/lib/pkgconfig/ee4308_lib.pc'
+[4.855s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/lib/python3.10/site-packages'
+[4.855s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/bin'
+[4.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/package.ps1'
+[4.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/package.dsv'
+[4.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/package.sh'
+[4.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/package.bash'
+[4.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/package.zsh'
+[4.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/colcon-core/packages/ee4308_lib)
+[4.870s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_bringup)
+[4.878s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup' for CMake module files
+[4.878s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup' for CMake config files
+[4.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_bringup', 'cmake_prefix_path')
+[4.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/hook/cmake_prefix_path.ps1'
+[4.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/hook/cmake_prefix_path.dsv'
+[4.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/hook/cmake_prefix_path.sh'
+[4.886s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/bin'
+[4.886s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/lib/pkgconfig/ee4308_bringup.pc'
+[4.886s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/lib/python3.10/site-packages'
+[4.886s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/bin'
+[4.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/package.ps1'
+[4.894s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/package.dsv'
+[4.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/package.sh'
+[4.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/package.bash'
+[4.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/package.zsh'
+[4.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/colcon-core/packages/ee4308_bringup)
+[4.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces -- -j20 -l20
+[4.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces
+[4.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_interfaces)
+[4.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_interfaces
+[4.967s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces' for CMake module files
+[4.967s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces' for CMake config files
+[4.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_interfaces', 'cmake_prefix_path')
+[4.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/hook/cmake_prefix_path.ps1'
+[4.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/hook/cmake_prefix_path.dsv'
+[4.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/hook/cmake_prefix_path.sh'
+[4.975s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib'
+[4.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_interfaces', 'ld_library_path_lib')
+[4.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/hook/ld_library_path_lib.ps1'
+[4.981s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/hook/ld_library_path_lib.dsv'
+[4.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/hook/ld_library_path_lib.sh'
+[4.981s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/bin'
+[4.981s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/pkgconfig/ee4308_interfaces.pc'
+[4.981s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/python3.10/site-packages'
+[4.982s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/bin'
+[4.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/package.ps1'
+[4.988s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/package.dsv'
+[4.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/package.sh'
+[4.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/package.bash'
+[4.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/package.zsh'
+[4.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/colcon-core/packages/ee4308_interfaces)
+[5.023s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_interfaces)
+[5.029s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces' for CMake module files
+[5.030s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces' for CMake config files
+[5.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_interfaces', 'cmake_prefix_path')
+[5.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/hook/cmake_prefix_path.ps1'
+[5.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/hook/cmake_prefix_path.dsv'
+[5.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/hook/cmake_prefix_path.sh'
+[5.038s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib'
+[5.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_interfaces', 'ld_library_path_lib')
+[5.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/hook/ld_library_path_lib.ps1'
+[5.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/hook/ld_library_path_lib.dsv'
+[5.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/hook/ld_library_path_lib.sh'
+[5.045s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/bin'
+[5.045s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/pkgconfig/ee4308_interfaces.pc'
+[5.046s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib/python3.10/site-packages'
+[5.046s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/bin'
+[5.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/package.ps1'
+[5.053s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/package.dsv'
+[5.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/package.sh'
+[5.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/package.bash'
+[5.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/ee4308_interfaces/package.zsh'
+[5.054s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/share/colcon-core/packages/ee4308_interfaces)
+[5.054s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_turtle' with build type 'ament_cmake'
+[5.054s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_turtle'
+[5.061s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.061s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_turtle': CMAKE_PREFIX_PATH=/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib:/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces:/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle:/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_turtle -- -j20 -l20
+[6.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_turtle' returned '0': CMAKE_PREFIX_PATH=/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib:/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces:/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle:/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_turtle -- -j20 -l20
+[6.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_turtle': CMAKE_PREFIX_PATH=/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib:/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces:/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle:/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_turtle
+[6.388s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_turtle)
+[6.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_turtle' returned '0': CMAKE_PREFIX_PATH=/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib:/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces:/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle:/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_turtle
+[6.395s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle' for CMake module files
+[6.395s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle' for CMake config files
+[6.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_turtle', 'cmake_prefix_path')
+[6.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/ee4308_turtle/hook/cmake_prefix_path.ps1'
+[6.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/ee4308_turtle/hook/cmake_prefix_path.dsv'
+[6.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/ee4308_turtle/hook/cmake_prefix_path.sh'
+[6.402s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/lib'
+[6.402s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/bin'
+[6.402s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/lib/pkgconfig/ee4308_turtle.pc'
+[6.402s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/lib/python3.10/site-packages'
+[6.402s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/bin'
+[6.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/ee4308_turtle/package.ps1'
+[6.408s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/ee4308_turtle/package.dsv'
+[6.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/ee4308_turtle/package.sh'
+[6.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/ee4308_turtle/package.bash'
+[6.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/ee4308_turtle/package.zsh'
+[6.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/colcon-core/packages/ee4308_turtle)
+[6.435s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_turtle)
+[6.448s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle' for CMake module files
+[6.449s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle' for CMake config files
+[6.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_turtle', 'cmake_prefix_path')
+[6.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/ee4308_turtle/hook/cmake_prefix_path.ps1'
+[6.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/ee4308_turtle/hook/cmake_prefix_path.dsv'
+[6.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/ee4308_turtle/hook/cmake_prefix_path.sh'
+[6.456s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/lib'
+[6.456s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/bin'
+[6.456s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/lib/pkgconfig/ee4308_turtle.pc'
+[6.456s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/lib/python3.10/site-packages'
+[6.456s] Level 1:colcon.colcon_core.environment:checking '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/bin'
+[6.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/ee4308_turtle/package.ps1'
+[6.463s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/ee4308_turtle/package.dsv'
+[6.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/ee4308_turtle/package.sh'
+[6.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/ee4308_turtle/package.bash'
+[6.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/ee4308_turtle/package.zsh'
+[6.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_turtle/share/colcon-core/packages/ee4308_turtle)
+[6.464s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.464s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.464s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.464s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.754s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[7.754s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.754s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.754s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.754s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[7.754s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.763s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/local_setup.ps1'
+[7.763s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/_local_setup_util_ps1.py'
+[7.764s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/setup.ps1'
+[7.773s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/local_setup.sh'
+[7.774s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/_local_setup_util_sh.py'
+[7.774s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/setup.sh'
+[7.780s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/local_setup.bash'
+[7.780s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/setup.bash'
+[7.787s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/local_setup.zsh'
+[7.787s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/setup.zsh'

@@ -1,0 +1,89 @@
+[0.034s] Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup
+[0.500s] -- The C compiler identification is GNU 11.4.0
+[1.530s] -- The CXX compiler identification is GNU 11.4.0
+[2.395s] -- Detecting C compiler ABI info
+[2.526s] -- Detecting C compiler ABI info - done
+[2.530s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.532s] -- Detecting C compile features
+[2.532s] -- Detecting C compile features - done
+[2.535s] -- Detecting CXX compiler ABI info
+[2.678s] -- Detecting CXX compiler ABI info - done
+[2.682s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.682s] -- Detecting CXX compile features
+[2.683s] -- Detecting CXX compile features - done
+[2.687s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.783s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.825s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.895s] -- Configuring done
+[2.897s] -- Generating done
+[2.897s] -- Build files have been written to: /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup
+[2.900s] Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup
+[2.901s] Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup -- -j20 -l20
+[2.919s] Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup -- -j20 -l20
+[2.933s] Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup
+[2.936s] -- Install configuration: ""
+[2.936s] -- Execute custom install script
+[2.937s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//launch/labs.launch.py
+[2.940s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//launch/labs.launch.py:Zone.Identifier
+[2.944s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//launch/labs.launch.py:Zone.Identifier:Zone.Identifier
+[2.948s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//launch/proj1.launch.py
+[2.952s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//launch/proj1.launch.py:Zone.Identifier
+[2.956s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//launch/proj1.launch.py:Zone.Identifier:Zone.Identifier
+[2.959s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//launch/proj1sim.launch.py
+[2.963s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//launch/proj1sim.launch.py:Zone.Identifier
+[2.967s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//launch/proj1sim.launch.py:Zone.Identifier:Zone.Identifier
+[2.971s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//rviz/labs.rviz
+[2.975s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//rviz/labs.rviz:Zone.Identifier
+[2.978s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//rviz/labs.rviz:Zone.Identifier:Zone.Identifier
+[2.982s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//rviz/proj1 copy.rviz
+[2.986s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//rviz/proj1 copy.rviz:Zone.Identifier
+[2.989s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//rviz/proj1.rviz
+[2.993s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//rviz/proj1.rviz:Zone.Identifier
+[2.997s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//rviz/proj1.rviz:Zone.Identifier:Zone.Identifier
+[3.001s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//params/labs.yaml
+[3.005s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//params/labs.yaml:Zone.Identifier
+[3.009s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//params/labs.yaml:Zone.Identifier:Zone.Identifier
+[3.013s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//params/proj1.yaml
+[3.016s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//params/proj1.yaml:Zone.Identifier
+[3.020s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//params/proj1.yaml:Zone.Identifier:Zone.Identifier
+[3.024s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/ee4308_world_24/model.config
+[3.028s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/ee4308_world_24/model.config:Zone.Identifier
+[3.032s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/ee4308_world_24/model.config:Zone.Identifier:Zone.Identifier
+[3.036s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/ee4308_world_24/model.sdf
+[3.039s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/ee4308_world_24/model.sdf:Zone.Identifier
+[3.043s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/ee4308_world_24/model.sdf:Zone.Identifier:Zone.Identifier
+[3.047s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/meshes/burger_base.dae
+[3.051s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/meshes/burger_base.dae:Zone.Identifier
+[3.055s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/meshes/burger_base.dae:Zone.Identifier:Zone.Identifier
+[3.058s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/meshes/lds.dae
+[3.062s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/meshes/lds.dae:Zone.Identifier
+[3.065s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/meshes/lds.dae:Zone.Identifier:Zone.Identifier
+[3.069s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/meshes/tire.dae
+[3.073s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/meshes/tire.dae:Zone.Identifier
+[3.076s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/meshes/tire.dae:Zone.Identifier:Zone.Identifier
+[3.080s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/model.config
+[3.083s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/model.config:Zone.Identifier
+[3.087s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/model.config:Zone.Identifier:Zone.Identifier
+[3.091s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/model.sdf
+[3.094s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/model.sdf:Zone.Identifier
+[3.098s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/model.sdf:Zone.Identifier:Zone.Identifier
+[3.101s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//worlds/ee4308_world_24.world
+[3.106s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//worlds/ee4308_world_24.world:Zone.Identifier
+[3.111s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup//worlds/ee4308_world_24.world:Zone.Identifier:Zone.Identifier
+[3.117s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ament_index/resource_index/package_run_dependencies/ee4308_bringup
+[3.121s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ament_index/resource_index/parent_prefix_path/ee4308_bringup
+[3.126s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/environment/ament_prefix_path.sh
+[3.130s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/environment/ament_prefix_path.dsv
+[3.134s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/environment/path.sh
+[3.138s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/environment/path.dsv
+[3.142s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/local_setup.bash
+[3.146s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/local_setup.sh
+[3.149s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/local_setup.zsh
+[3.153s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/local_setup.dsv
+[3.157s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/package.dsv
+[3.161s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ament_index/resource_index/packages/ee4308_bringup
+[3.165s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.168s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/cmake/ee4308_bringupConfig.cmake
+[3.172s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/cmake/ee4308_bringupConfig-version.cmake
+[3.175s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_bringup/share/ee4308_bringup/package.xml
+[3.180s] Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_bringup

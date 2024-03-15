@@ -1,0 +1,83 @@
+[0.059s] Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_lib -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib
+[0.527s] -- The C compiler identification is GNU 11.4.0
+[1.799s] -- The CXX compiler identification is GNU 11.4.0
+[2.597s] -- Detecting C compiler ABI info
+[2.740s] -- Detecting C compiler ABI info - done
+[2.744s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.744s] -- Detecting C compile features
+[2.744s] -- Detecting C compile features - done
+[2.746s] -- Detecting CXX compiler ABI info
+[3.013s] -- Detecting CXX compiler ABI info - done
+[3.017s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.017s] -- Detecting CXX compile features
+[3.018s] -- Detecting CXX compile features - done
+[3.019s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.110s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.150s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.166s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[3.481s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.483s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.488s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.496s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.561s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.564s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.738s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[15.914s] -- Found FastRTPS: /opt/ros/humble/include  
+[31.423s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[31.445s] -- Looking for pthread.h
+[31.873s] -- Looking for pthread.h - found
+[31.873s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[33.272s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[33.272s] -- Found Threads: TRUE  
+[33.383s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[33.458s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[33.510s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[33.529s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[33.540s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[33.758s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[33.763s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[33.764s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[78.776s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[78.776s] -- Configured cppcheck include dirs: 
+[78.776s] -- Configured cppcheck exclude dirs and/or files: 
+[78.777s] -- Added test 'lint_cmake' to check CMake code style
+[78.778s] -- Added test 'uncrustify' to check C / C++ code style
+[78.778s] -- Configured uncrustify additional arguments: 
+[78.778s] -- Added test 'xmllint' to check XML markup files
+[78.780s] -- Configuring done
+[78.783s] -- Generating done
+[78.784s] -- Build files have been written to: /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib
+[78.791s] Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chen/ee4308_proj1_2/ee4308_proj1_2/src/ee4308_lib -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib
+[78.792s] Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib -- -j20 -l20
+[78.812s] Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib -- -j20 -l20
+[78.823s] Invoking command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib
+[78.826s] -- Install configuration: ""
+[78.827s] -- Execute custom install script
+[78.827s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/include/ee4308_lib//common.hpp
+[78.831s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/include/ee4308_lib//common.hpp:Zone.Identifier
+[78.835s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/include/ee4308_lib//common.hpp:Zone.Identifier:Zone.Identifier
+[78.838s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/include/ee4308_lib//core.hpp
+[78.842s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/include/ee4308_lib//core.hpp:Zone.Identifier
+[78.846s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/include/ee4308_lib//core.hpp:Zone.Identifier:Zone.Identifier
+[78.851s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/include/ee4308_lib//vec2.hpp
+[78.858s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/include/ee4308_lib//vec2.hpp:Zone.Identifier
+[78.863s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/include/ee4308_lib//vec2.hpp:Zone.Identifier:Zone.Identifier
+[78.868s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ament_index/resource_index/package_run_dependencies/ee4308_lib
+[78.872s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ament_index/resource_index/parent_prefix_path/ee4308_lib
+[78.877s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/environment/ament_prefix_path.sh
+[78.882s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/environment/ament_prefix_path.dsv
+[78.886s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/environment/path.sh
+[78.890s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/environment/path.dsv
+[78.894s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/local_setup.bash
+[78.898s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/local_setup.sh
+[78.901s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/local_setup.zsh
+[78.905s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/local_setup.dsv
+[78.908s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/package.dsv
+[78.912s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ament_index/resource_index/packages/ee4308_lib
+[78.916s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/cmake/ament_cmake_export_include_directories-extras.cmake
+[78.919s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/cmake/ament_cmake_export_dependencies-extras.cmake
+[78.923s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/cmake/ee4308_libConfig.cmake
+[78.927s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/cmake/ee4308_libConfig-version.cmake
+[78.931s] -- Symlinking: /home/chen/ee4308_proj1_2/ee4308_proj1_2/install/ee4308_lib/share/ee4308_lib/package.xml
+[78.935s] Invoked command in '/home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/ee4308_proj1_2/ee4308_proj1_2/build/ee4308_lib
