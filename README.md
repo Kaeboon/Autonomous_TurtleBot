@@ -65,9 +65,11 @@ expore EE4308_TASK=proj1sim
 ### Summary
 
 <b> Task: Estimation Task</b>:
+
 The program uses Odometry Motion Model and fuse it with the Inertial Measurement Unit (IMU) via weighted average.
 
 <b> Task: Planner Task </b>:
+
 The program utilizes A\* Algorithm to obtain the path towards the next waypoint.
 
 <b> Task: Smoother Task </b>:
